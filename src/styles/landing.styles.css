@@ -1,0 +1,18 @@
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  min-width: 150px;
+  margin: 10px 15px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

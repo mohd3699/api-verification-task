@@ -1,0 +1,40 @@
+.view-data {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.view-data .toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.view-data .toolbar button {
+  cursor: pointer;
+  padding: 3px 8px;
+}
+
+.view-data .title {
+  width: fit-content;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #646464;
+}
+
+.view-data .table {
+  width: 100%;
+}
+
+.view-data table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.view-data .table th,
+td {
+  padding: 5px 10px;
+}
